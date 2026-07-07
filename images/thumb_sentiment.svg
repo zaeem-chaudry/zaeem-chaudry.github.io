@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/>
+    <stop offset="100%" stop-color="#1a2030"/>
+  </linearGradient>
+</defs>
+<rect width="160" height="120" fill="url(#g)"/>
+<!-- stream of data flowing left to right -->
+<rect x="5" y="22" width="30" height="8" rx="3" fill="#ff9900" opacity=".6"/>
+<rect x="5" y="34" width="24" height="8" rx="3" fill="#ff9900" opacity=".5"/>
+<rect x="5" y="46" width="28" height="8" rx="3" fill="#ff9900" opacity=".7"/>
+<!-- arrows -->
+<text font-size="12" fill="#ff9900" x="40" y="54" opacity=".8">→</text>
+<!-- spark node -->
+<rect x="54" y="28" width="52" height="36" rx="6" fill="#1f2937" stroke="#ff9900" stroke-width="1.5"/>
+<text font-family="'Courier New',monospace" font-size="7" fill="#ff9900" x="80" y="42" text-anchor="middle">PySpark</text>
+<text font-family="'Courier New',monospace" font-size="7" fill="#8b949e" x="80" y="53" text-anchor="middle">EMR · S3</text>
+<!-- arrows out -->
+<text font-size="12" fill="#7ee787" x="110" y="54" opacity=".8">→</text>
+<!-- sentiment bars -->
+<rect x="126" y="30" width="28" height="8" rx="2" fill="#7ee787" opacity=".9"/>
+<rect x="126" y="42" width="16" height="8" rx="2" fill="#ff7b72" opacity=".7"/>
+<rect x="126" y="54" width="22" height="8" rx="2" fill="#79c0ff" opacity=".7"/>
+<text font-family="sans-serif" font-size="6" fill="#7ee787" x="158" y="37" text-anchor="end">+</text>
+<text font-family="sans-serif" font-size="6" fill="#ff7b72" x="158" y="49" text-anchor="end">−</text>
+<text font-family="sans-serif" font-size="6" fill="#79c0ff" x="158" y="61" text-anchor="end">~</text>
+<!-- stats -->
+<text font-family="'Courier New',monospace" font-size="8" fill="#8b949e" x="80" y="85" text-anchor="middle">18.6M tweets · AWS EMR</text>
+<text font-family="'Courier New',monospace" font-size="8" fill="#7ee787" x="80" y="96" text-anchor="middle">79.6% acc · F1 0.86</text>
+<!-- top label -->
+<text font-family="'Courier New',monospace" font-size="8" fill="#ff9900" x="80" y="12" text-anchor="middle">Distributed NLP Pipeline</text>
+</svg>

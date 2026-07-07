@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1a0d2e"/>
+    <stop offset="100%" stop-color="#2a1a3e"/>
+  </linearGradient>
+</defs>
+<rect width="160" height="120" fill="url(#g)"/>
+<!-- three agent nodes in a triangle -->
+<!-- Engineer agent -->
+<circle cx="80" cy="28" r="16" fill="#21262d" stroke="#d2a8ff" stroke-width="1.5"/>
+<text font-family="'Courier New',monospace" font-size="6.5" fill="#d2a8ff" x="80" y="27" text-anchor="middle">Engineer</text>
+<text font-family="'Courier New',monospace" font-size="5.5" fill="#8b949e" x="80" y="36" text-anchor="middle">agent</text>
+<!-- Creator agent -->
+<circle cx="42" cy="82" r="16" fill="#21262d" stroke="#79c0ff" stroke-width="1.5"/>
+<text font-family="'Courier New',monospace" font-size="6.5" fill="#79c0ff" x="42" y="81" text-anchor="middle">Creator</text>
+<text font-family="'Courier New',monospace" font-size="5.5" fill="#8b949e" x="42" y="90" text-anchor="middle">agent</text>
+<!-- Evaluator agent -->
+<circle cx="118" cy="82" r="16" fill="#21262d" stroke="#7ee787" stroke-width="1.5"/>
+<text font-family="'Courier New',monospace" font-size="6.5" fill="#7ee787" x="118" y="81" text-anchor="middle">Evaluator</text>
+<text font-family="'Courier New',monospace" font-size="5.5" fill="#8b949e" x="118" y="90" text-anchor="middle">agent</text>
+<!-- arrows between agents -->
+<line x1="68" y1="40" x2="52" y2="68" stroke="#d2a8ff" stroke-width="1" stroke-dasharray="3 2"/>
+<line x1="92" y1="40" x2="104" y2="68" stroke="#d2a8ff" stroke-width="1" stroke-dasharray="3 2"/>
+<line x1="58" y1="82" x2="100" y2="82" stroke="#79c0ff" stroke-width="1" stroke-dasharray="3 2"/>
+<!-- RAG label -->
+<text font-family="'Courier New',monospace" font-size="7" fill="#e3b341" x="80" y="110" text-anchor="middle">RAG · Pinecone · LangChain</text>
+<text font-family="'Courier New',monospace" font-size="7" fill="#8b949e" x="80" y="12" text-anchor="middle">Multi-Agent Pipeline · n8n</text>
+</svg>

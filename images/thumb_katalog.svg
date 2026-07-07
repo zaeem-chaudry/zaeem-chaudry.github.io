@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d1a0d"/>
+    <stop offset="100%" stop-color="#1a2e1a"/>
+  </linearGradient>
+</defs>
+<rect width="160" height="120" fill="url(#g)"/>
+<!-- bar chart for inventory -->
+<rect x="18" y="75" width="16" height="30" rx="2" fill="#96bf48" opacity=".9"/>
+<rect x="40" y="55" width="16" height="50" rx="2" fill="#96bf48" opacity=".9"/>
+<rect x="62" y="45" width="16" height="60" rx="2" fill="#96bf48" opacity=".7"/>
+<rect x="84" y="62" width="16" height="43" rx="2" fill="#96bf48" opacity=".9"/>
+<rect x="106" y="35" width="16" height="70" rx="2" fill="#96bf48"/>
+<rect x="128" y="50" width="16" height="55" rx="2" fill="#96bf48" opacity=".8"/>
+<!-- axis -->
+<line x1="14" y1="105" x2="148" y2="105" stroke="#3a5a3a" stroke-width="1"/>
+<!-- trend line -->
+<polyline points="26,80 48,62 70,50 92,67 114,42 136,55" stroke="#f09228" stroke-width="1.5" fill="none" stroke-dasharray="3 2"/>
+<!-- Shopify green top label -->
+<text font-family="'Courier New',monospace" font-size="8" fill="#96bf48" x="80" y="12" text-anchor="middle">Shopify Inventory · FastAPI</text>
+<text font-family="'Courier New',monospace" font-size="7" fill="#555" x="80" y="113" text-anchor="middle">replenishment forecasting</text>
+</svg>
